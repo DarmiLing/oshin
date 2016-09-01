@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{ font-family:xiaohei;src:url(../fonts/Raleway-Regular.ttf);}
+html,body{height:100%}
+header{position:fixed;padding:25px 0px;width:100%; z-index:99;}
+header .logo{float:left; padding-left:30px; width:9.3%;}
+header .logo img{ width:100%}
+nav{position:absolute; width:78%; transform:translateX(-50%); left:50%; top:0; text-align:center; font-weight:bold;}
+nav .logoone{display:none; transform:translate(-30%); margin-top:10px; font-size:50px;}
+nav .logoone a{color:#333;}
+nav ul li{display:inline-block;margin:0% 3%;font-size:12px; line-height:99px;}
+nav ul li a{ color:#333;}
+nav ul li a:hover{color:#e0a240;}
+header .icon{float:right;padding-right:30px; line-height:50px;}
+header .icon a{margin-left:30px; color:#333;}
+
+.banner{ background:url(../../OSHINE/images/oshin-slide-1.jpg) no-repeat center center; height:100%; position:relative;}
+.banner h2{position:absolute;left:50%;top:35%;letter-spacing:8px;transform:translateX(-50%); animation:bannerh2 2s;}
+.banner h3{border:#000 7px solid;font-size:50px; font-weight:800;
+letter-spacing:10px;position:absolute; left:50%; top:43%;transform:translateX(-50%);padding:0px 52px 0px 60px; line-height:102px;animation:bannerh3 2s}
+.banner p{font:italic 36px/110px "Adobe Devanagari"; position:absolute; right:50%; top:60%; transform:translateX(50%);animation:bannerp 2s}
+
+@keyframes bannerh2{
+	0%{top:0%;}
+	100%{top:35%}}
+	
+@keyframes bannerh3{
+	0%{left:0%;}
+	100%{left:50%}}
+	
+@keyframes bannerp{
+	0%{right:0%;}
+	100%{right:50%}}
+	
+.pega1{text-align:center;padding-top:102px;} 
+.pega1 h2{ font-size:26px; font-weight:600; line-height:94px;}
+.pega1 h3{font:italic 22px/0px "Adobe Devanagari"; color:#5f6264; line-height:41px;}
+.pega1 span{ position:relative;}
+.pega1 span:before{ content:""; width:20px; height:1px; background-color:#e8e8e8;position:absolute; left:-40px; top:50%; }
+.pega1 span:after{ content:""; width:20px; height:1px; background-color:#e8e8e8;position:absolute; left:30px; top:50%; }		
+.pega1 span i{ color:#e0a240; transform:rotate(-45deg);line-height:84px}
+.pega1 p{line-height:33px; margin-bottom:101px;font-family:xiaohei, Arial, Helvetica, sans-serif; font-weight:200;color:#5f6264; font-size:18px;}
+.pega1 .pic{width:80%; margin:0 auto;}
+.pega1 .pic img{ width:100%; display:block;}
+
+.pega2{height:246px;}
+.pega2 > div{width:25%; float:left; height:184px;padding-top:62px;text-align:center;}
+.pega2 > div a{color:#000;}
+.pega2 > div:nth-child(2n+1){background:#f2f5f8;}
+.pega2 > div:nth-child(2n){background:#edf0f2;}
+.pega2 i{ font-size:80px;}
+.pega2 > div:hover div{margin-top:-50px;transition:all 1s;}
+
+.pega3 {padding-top:90px; font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+.pega3 .left{float:left; width:35%; margin-top:17px;}
+.pega3 .left > div{margin-bottom:36px;}
+.pega3 .left h3{ line-height:56px; padding:0% 13%;}
+.pega3 .left h3 i{ color:#f3bd54;font-size:30px;}
+.pega3 .left .one i{padding-right:11.5%;}
+.pega3 .left .two i{padding-right:11.5%;}
+.pega3 .left .three i{padding-right:13.2%;}
+.pega3 .left p{line-height:26px;padding-left:26%; padding-right:13%;font-family:xiaohei, Arial, Helvetica, sans-serif;}
+.pega3 .mid{float:left;width:27%;margin:0 auto; text-align:center;}
+.pega3 .mid img{ background-size:cover; width:100%; margin-bottom:90px;}
+
+.pega3 .right{float:left; width:35%;margin-top:17px;}
+.pega3 .right > div{margin-bottom:36px;}
+.pega3 .right h3{ line-height:56px; padding-left:13%;}
+.pega3 .right h3 i{ color:#f3bd54;font-size:30px; }
+.pega3 .right .one i{padding-right:9.5%;}
+.pega3 .right .two i{padding-right:9.5%;}
+.pega3 .right .three i{padding-right:8.5%;}
+.pega3 .right p{line-height:26px;padding-left:26%;padding-right:13%;font-family:xiaohei, Arial, Helvetica, sans-serif;}
+
+.pega4{height:400px;background:url(../images/pic.jpg) no-repeat center top; background-attachment:fixed; background-size:cover;}
+
+.pega5{text-align:center;padding-top:102px;}
+.pega5 h2{ font-size:26px; font-weight:600; line-height:94px;}
+.pega5 h3{font:italic 22px/0px "Adobe Devanagari"; color:#5f6264; line-height:41px;}
+.pega5 span{ position:relative;}
+.pega5 span:before{ content:""; width:20px; height:1px; background-color:#e8e8e8;position:absolute; left:-40px; top:50%; }
+.pega5 span:after{ content:""; width:20px; height:1px; background-color:#e8e8e8;position:absolute; left:30px; top:50%; }		
+.pega5 span i{ color:#e0a240; transform:rotate(-45deg);line-height:84px}
+.pega5 .inner {left:50%; top:0; margin:50px 0px;}
+.pega5 .inner ul li { display:inline-block; padding:0px 25px; font-size:16px; font-weight:bold; line-height:44px;}
+.pega5 .inner ul li a{color:#000;}
+.pega5 .inner ul li:hover{ border:1px solid #f3bd54;}
+.pega5 .inner ul li a:hover{color:#f3bd54;}
+.pega5 .pic ul{margin:0% 2.5%}
+.pega5 .pic ul li{ width:29%; height:20%; float:left; margin:0px 25px 40px; }
+.pega5 .pic ul li img{ width:100%; height:100%;}
+.pega5 .font-one{font-weight:bold; line-height:44px; border:2px solid #000; width:158px; margin:0 auto; margin-bottom:90px; font-family:xiaohei, Arial, Helvetica, sans-serif ;}
+
+.pega6{ background:#f2f3f8; height:413px;text-align:center;}
+.pega6 i{color:#dfdfdf; font-size:120px; padding-top:98px;}
+.pega6 p{ line-height:40px;font-family:xiaohei, Arial, Helvetica, sans-serif ;}
+.pega6 p a{ color:#e0a240;}
+.pega6 h5{padding-top:22px;}	
+
+.pega7{text-align:center;padding-top:102px;}
+.pega7 h2{ font-size:26px; font-weight:600; line-height:94px;}
+.pega7 h3{font:italic 22px/0px "Adobe Devanagari"; color:#5f6264; line-height:41px;}
+.pega7 span{ position:relative;}
+.pega7 span:before{ content:""; width:20px; height:1px; background-color:#e8e8e8;position:absolute; left:-40px; top:50%; }
+.pega7 span:after{ content:""; width:20px; height:1px; background-color:#e8e8e8;position:absolute; left:30px; top:50%; }		
+.pega7 span i{ color:#e0a240; transform:rotate(-45deg);line-height:84px}
+.pega7 .inner{padding-top:64px;}
+.pega7 .inner{margin-bottom:90px;}
+.pega7 .inner ul li{float:left;height:50%; width:48%;margin:0% 1%;}
+.pega7 .inner ul li img{height:100%; width:100%;}
+
+.pega8{ background:#000; height:340px;text-align:center;}
+.pega8 h2{color:#fff;padding-top:101px;font-family:xiaobai ;}
+.pega8 p{color:#fff; line-height:84px;font-family:xiaohei, Arial, Helvetica, sans-serif ;}
+.pega8 a{background:#e0a240; width:110px; height:44px; color:#fff; font-size:14px; display:inline-block; line-height:44px;font-family:xiaohei, Arial, Helvetica, sans-serif ;}
+
+footer{height:437px; background:#f2f3f8;}
+footer .inner{ width:24%; float:left; padding-top:70px;}
+footer .inner:nth-child(1){margin-left:4%;}
+footer .inner p{ line-height:24px; color:#818386;font-family:xiaohei, Arial, Helvetica, sans-serif;}
+footer .inner .logo{ margin-bottom:32px;}
+footer .inner .two {margin-top:30px;}
+footer .inner .two li a{float:left; border:1px solid #e0a240; width:30px; height:30px; color:#e0a240; border-radius:50%; text-align:center; line-height:30px; margin-right:13px;}
+
+footer .inner .font h4{line-height:21px; margin-bottom:21px;}
+footer .inner .font .pic{ height:48px;float:left;}
+footer .inner .font .pic p{float:right; margin-left:10px;font-size:12px;font-family:xiaohei, Arial, Helvetica, sans-serif;}
+footer .inner .font .pic span{ display:block; margin-top:15px; color:#666666;font-size:12px;font-family:xiaohei, Arial, Helvetica, sans-serif;}
+footer .inner .font img{ width:50px; height:36px;}
+footer .inner .font1 {padding-top:127px;}
+footer .inner .font1 .pic1{ height:48px;float:left;}
+footer .inner .font1 .pic1 p{float:right; margin-left:10px;font-size:12px; font-family:xiaohei, Arial, Helvetica, sans-serif;}
+footer .inner .font1 .pic1 span{ display:block; margin-top:30px; color:#666666;font-size:12px;font-family:xiaohei, Arial, Helvetica, sans-serif;}
+footer .inner .font1 img{ width:50px; height:36px;}
+
+footer .inner .three{ margin-top:24px;}
+footer .inner .three li{ line-height:35px;font-family:xiaohei, Arial, Helvetica, sans-serif;}
+footer .inner .three li a:hover{color:#f0b452;}
+footer .inner .three li a{color:#919192;}
+footer .inner .three li i{ padding-left:6px; margin-right:16px;}
+
+footer .inner .four { display:inline-block; margin-right:3.9%; margin-top:6.1%;}
+footer .inner .four li{ width:22%; height:70px; float:left; margin-right:4%; margin-bottom:4%;}
+footer .inner .four li img{ width:100%; height:100%;}
+
+.totop{ width:40px; height:40px; background:#e0a240; position:fixed; bottom:7%;right:1.5%;text-align:center; line-height:40px; color:#fff;}
+.totop a{ color:#fff;}
+
+.bottom{ text-align:center; height:70px; background:#fff; line-height:70px; color:#91919d;font-family:xiaohei, Arial, Helvetica, sans-serif;}

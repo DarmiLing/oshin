@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,ul,li,img,h1,h2,h3,h4,h5,h6,p,a,input{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none; outline:none;}
+body{ font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif ,"Arial Black", 'Open Sans', "微软雅黑";}
+input{ border:0;}
+img{ border:0;}
+.clear{clear:both; float:none !important;}
+body{ background:none !important;}
